@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+    }
+    td.centered {
+        text-align: center;
+    }
+    table {
+        width: 500px
+    }
+</style>
+<head>
+    <title>Tabel 1</title>
+</head>
+<body>
+<table border="1">
+  <tr>
+      <td colspan="4" class="centered">TITLE</td>
+  </tr>
+  <tr>
+      <td colspan="2" class="centered" >subtitle</td>
+      <td colspan="2" class="centered" >subtitle</td>
+  </tr>
+    <tr>
+        <td rowspan="1">1 item<br> 1 item<br> 1 item</td>
+        <td rowspan="1">123<br>123<br>123</td>
+        <td rowspan="1">1 item<br> 1 item<br> 1 item</td>
+        <td rowspan="1">123<br>123<br>123</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="centered" > sub subtitle </td>
+        <td colspan="2"class="centered" > sub subtitle </td>
+    </tr>
+</table>
+</body>
+</html>
