@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="formulierstijl.css">
+    <title>Burton Formulier</title>
+</head>
+<body>
+
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <h1> Burton Formulier </h1>
+
+    <label>Voornaam</label>
+    <input class="tekstvak" type="text" name="voornaam" id="voornaam">
+
+    <label>Favoriete eten</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Pannenkoeken</label>
+    </div>
+
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input class="tekstvak" type="text" name="tussenvoegsel" id="tussenvoegsel">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Pizza</label>
+    </div>
+
+    <label for="achternaam">Achternaam</label>
+    <input class="tekstvak" type="text" name="achternaam" id="achternaam">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Patat</label>
+    </div>
+
+    <label for="geslacht">Geslacht</label>
+    <div id="geslacht">
+        <input type="radio" name="geslacht" value="m">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="v">
+        <label>Vrouw</label>
+    </div>
+
+    <label id="date" for="datum">Geboortedatum</label>
+        <input type="date" name="datum" id="datum">
+    </div>
+
+    <label id="textarea">Omschrijving</label>
+        <textarea name="tekstomschrijving"></textarea>
+    </div>
+
+    <div class="button">
+        <input id="resetbutton" type="reset" value="Annuleer">
+        <input id="submitbutton" type="submit" value="Verzenden">
+    </div>
+
+</form>
+</body>
+</html>
